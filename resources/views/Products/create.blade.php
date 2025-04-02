@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,8 @@
 <body>
     <h1>Criar Novo Produto</h1>
 
-    <!-- Formulário de criação -->
     <form action="{{ route('products.store') }}" method="POST">
-        @csrf <!-- Token de proteção contra CSRF -->
+        @csrf
 
         <label for="aquarium_model">Modelo do Aquário:</label>
         <input type="text" name="aquarium_model" id="aquarium_model" required>
