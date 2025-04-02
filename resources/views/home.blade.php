@@ -6,7 +6,7 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Bem-vindo à Página Inicial!</h1>
-    <a href="{{ route('products.create') }}">Criar Novo Produto</a>
+    <h1>Bem-vindo!</h1>
+    <a href="{{ route('products.create') }}">Adicionar novo aquário.</a>
 </body>
 </html>
